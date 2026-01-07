@@ -87,7 +87,7 @@ United
 
 **Using Visual Studio:**
 1. Open `FlightItineraryBuilder.sln`
-2. Build the solution (Ctrl+Shift+B)
+2. Build the solution
 3. Executable will be in `Debug/` or `Release/` folder
 
 **Using g++:**
