@@ -4,7 +4,7 @@ A C++ application that finds optimal flight itineraries between airports using a
 
 ## Implementation
 
-This system efficiently plans multi-leg flight journeys by:
+This system plans itineraries by:
 - Loading flight databases and airport information
 - Finding valid flight paths between source and destination airports
 - Respecting time constraints (connection times, layovers, total duration)
