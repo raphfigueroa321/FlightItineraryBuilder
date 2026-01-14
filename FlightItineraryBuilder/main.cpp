@@ -70,8 +70,6 @@ int main() {
 
 // Main entry point
 int main(int argc, char* argv[]) {
-    // We expect either one argument, the test parameters file, or no arguments,
-    // meaning we'll prompt for the test parameters file
     if (argc > 2) {
         std::cerr << "Usage: " << argv[0] << " [ testParametersFile ]\n";
         return 1;

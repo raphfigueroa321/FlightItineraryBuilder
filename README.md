@@ -1,12 +1,12 @@
 ﻿# Flight Itinerary Builder
 
-A C++ application that finds optimal flight itineraries between airports using a breadth-first search algorithm with customizable constraints.
+A C++ application that finds optimal flight itineraries between airports using an A* search algorithm with customizable constraints.
 
-## Implementation
+## Overview
 
 This system efficiently plans multi-leg flight journeys by:
 - Loading flight databases and airport information
-- Finding valid flight paths between source and destination airports
+- Finding optimal flight paths between source and destination airports (minimizing total travel time)
 - Respecting time constraints (connection times, layovers, total duration)
 - Filtering by preferred airlines
 - Validating and displaying complete itineraries
