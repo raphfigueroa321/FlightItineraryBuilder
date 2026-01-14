@@ -4,7 +4,7 @@ A C++ application that finds optimal flight itineraries between airports using a
 
 ## Overview
 
-This system efficiently plans multi-leg flight journeys by:
+This system plans itineraries by:
 - Loading flight databases and airport information
 - Finding optimal flight paths between source and destination airports (minimizing total travel time)
 - Respecting time constraints (connection times, layovers, total duration)
@@ -87,7 +87,7 @@ United
 
 **Using Visual Studio:**
 1. Open `FlightItineraryBuilder.sln`
-2. Build the solution (Ctrl+Shift+B)
+2. Build the solution
 3. Executable will be in `Debug/` or `Release/` folder
 
 **Using g++:**
